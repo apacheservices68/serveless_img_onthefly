@@ -1,0 +1,46 @@
+version: "3"
+
+services:
+    ttc-resize: # ttc
+        container_name: ttc-resize
+        build:
+            context: ./
+        image: vietdien2005/tto-resize
+        volumes:
+            - ./tto-resize:/tto/bin/tto-resize
+            - /var/www/html/resources/ttc:/ttc
+            - ./default.jpg:/tmp/default.jpg
+            - ./config.toml:/tmp/config.toml
+        ports:
+            - "3300:3300"
+        command: ["/tto/bin/tto-resize", "-origin", "/ttc", "-cache", "/ttc", "-default", "/tmp/default.jpg", "-profile","/tmp/config.toml"]
+        restart: unless-stopped
+
+    ttc-sticker-resize: # ttc-sticker
+        container_name: ttc-sticker-resize
+        build:
+            context: ./
+        image: vietdien2005/tto-resize
+        volumes:
+            - ./tto-resize:/tto/bin/tto-resize
+            - /var/www/html/resources/sticker:/ttc
+            - ./default.jpg:/tmp/default.jpg
+            - ./config_sticker.toml:/tmp/config.toml
+        ports:
+            - "3301:3300"
+        command: ["/tto/bin/tto-resize", "-origin", "/ttc", "-cache", "/ttc", "-default", "/tmp/default.jpg", "-profile","/tmp/config.toml"]
+        restart: unless-stopped
+
+    cadvisor:
+        container_name: tto_cadvisor
+        image: google/cadvisor:latest
+        ports:
+            - 8880:8080
+        volumes:
+            - /:/rootfs:ro
+            - /var/run:/var/run:rw
+            - /sys:/sys:ro
+            - /var/lib/docker/:/var/lib/docker:ro
+        depends_on:
+            - ttc-resize
+            - ttc-sticker-resize

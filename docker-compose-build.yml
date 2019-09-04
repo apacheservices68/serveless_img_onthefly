@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+    make-build:
+        container_name: go-build
+        build:
+            context: ./
+        image: vietdien2005/tto-resize
+        volumes:
+            - ./dist:/go/src/tto-resize/dist
+        working_dir: /go/src/tto-resize
+        environment:
+            GO111MODULE: "auto"
+        command: ["make", "build"]

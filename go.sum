@@ -1,0 +1,17 @@
+github.com/BurntSushi/toml v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=
+github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
+github.com/discordapp/lilliput v0.0.0-20190402233613-eaffdc08248b h1:FrJsV3nT3cYwZEc0gP9Ueli0c+ajYYO2ye2E2iqxdc8=
+github.com/discordapp/lilliput v0.0.0-20190402233613-eaffdc08248b/go.mod h1:Y/qDoFO8ipcjzUjR+FB3NrX2oJcp6EXQBLuW0nws2IY=
+github.com/h2non/bimg v1.0.19 h1:lrKA2oi4DttnscGeb/oRiBIcRiAX33mmp3yQX8JzGIc=
+github.com/h2non/bimg v1.0.19/go.mod h1:R3+UiYwkK4rQl6KVFTOFJHitgLbZXBZNFh2cv3AEbp8=
+github.com/hashicorp/golang-lru v0.5.1 h1:0hERBMJE1eitiLkihrMvRVBYAkpHzc/J3QdDN+dAcgU=
+github.com/hashicorp/golang-lru v0.5.1/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
+github.com/muesli/smartcrop v0.0.0-20181030220600-548bbf0c0965 h1:1/6FG3PEDqTnupcMDFUex+gHYdZhIzu8uTJw3QSa8zE=
+github.com/muesli/smartcrop v0.0.0-20181030220600-548bbf0c0965/go.mod h1:i2fCI/UorTfgEpPPLWiFBv4pye+YAG78RwcQLUkocpI=
+github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 h1:zYyBkD/k9seD2A7fsi6Oo2LfFZAehjjQMERAvZLEDnQ=
+github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646/go.mod h1:jpp1/29i3P1S/RLdc7JQKbRpFeM1dOBd8T9ki5s+AY8=
+github.com/throttled/throttled v2.2.4+incompatible h1:aVKdoH/qT5Mo1Lm/678OkX2pFg7aRpHlTn1tfgaSKxs=
+github.com/throttled/throttled v2.2.4+incompatible/go.mod h1:0BjlrEGQmvxps+HuXLsyRdqpSRvJpq0PNIsOtqP9Nos=
+golang.org/x/image v0.0.0-20190417020941-4e30a6eb7d9a h1:Rvz6SxvUYdeTtV9mm96imoWefLnhtz9Ac/gJfFfPzdc=
+golang.org/x/image v0.0.0-20190417020941-4e30a6eb7d9a/go.mod h1:kZ7UVZpmo3dzQBMxlp+ypCbDeSB+sBbTgSJuh5dn5js=
+golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=

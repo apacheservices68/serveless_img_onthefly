@@ -1,0 +1,59 @@
+[[profile]]
+name = "s1852"
+width = 185
+height = 297
+noCrop = true
+
+[[profile]]
+name = "s310"
+width = 310
+height = 135
+noCrop = true
+
+[[profile]]
+name = "s12808"
+width = 1280
+height = 800
+noCrop = true
+
+[[profile]]
+name = "s720"
+width = 720
+height = 450
+noCrop = true
+
+[[profile]]
+name = "s670"
+width = 670
+height = 419
+noCrop = true
+
+[[profile]]
+name = "s475"
+width = 475
+height = 297
+noCrop = true
+
+[[profile]]
+name = "s300"
+width = 300
+height = 188
+noCrop = true
+
+[[profile]]
+name = "s226"
+width = 226
+height = 141
+noCrop = true
+
+[[profile]]
+name = "s188"
+width = 188
+height = 118
+noCrop = true
+
+[[profile]]
+name = "s100"
+width = 100
+height = 63
+noCrop = true
